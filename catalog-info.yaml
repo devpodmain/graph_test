@@ -33,3 +33,7 @@ spec:
   type: service
   lifecycle: experimental
   owner: guest
+  providesApis:
+    - petstore
+    - streetlights
+    - hello-world
