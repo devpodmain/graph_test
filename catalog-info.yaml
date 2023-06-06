@@ -36,7 +36,7 @@ metadata:
 spec:
   type: service
   lifecycle: experimental
-  owner: guest
+  owner: team-c
   providesApis:
     - petstore
     - streetlights
