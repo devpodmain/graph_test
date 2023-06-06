@@ -43,6 +43,6 @@ metadata:
     lifecycle: experimental
     owner: team-c
     provides:
-    - petstore_api
-    - streetlights_api
-    - hello-world_api
+    - petstore
+    - streetlights
+    - hello-world
