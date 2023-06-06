@@ -34,3 +34,11 @@ metadata:
     pipelines:
     - pipeline3
     - pipeline4
+    spec:
+  type: service
+  lifecycle: experimental
+  owner: team-c
+  providesApis:
+    - petstore
+    - streetlights
+    - hello-world
