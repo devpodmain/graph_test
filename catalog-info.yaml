@@ -42,7 +42,7 @@ metadata:
     type: service
     lifecycle: experimental
     owner: team-c
-    provides:
+    providesApi:
     - petstore
     - streetlights
     - hello-world
