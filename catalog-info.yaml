@@ -1,0 +1,35 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  language: Java
+  owner: INFADevPlayground
+  tenantID: orion333
+  serviceType: Create Service
+  description: Desc
+  annotations:
+    harness.io/project-url: https://app.harness.io/ng/account/0imfjG07TR2hVBcS5AZpCQ/home/orgs/CTSandbox/projects/oriondev/
+    harness.io/ci-pipelineIds: Pipeline_Orion_Repo2316,Pipeline_Orion_Repo2318,Pipeline_Orion_Repo2321
+    harness.io/cd-serviceId: Pipeline_Orion_Repo2320
+  name: Repo2606
+  harness-projects-ci:
+  - url: sample1
+    pipelines:
+    - pipeline1
+    - pipeline2
+  - url: sample2
+    pipelines:
+    - pipeline3
+    - pipeline4
+  harness-projects-cd:
+  - url: sample1
+    pipelines:
+    - pipeline1
+    - pipeline2
+  - url: sample2
+    pipelines:
+    - pipeline3
+    - pipeline4
+spec:
+  type: service
+  lifecycle: experimental
+  owner: guest
