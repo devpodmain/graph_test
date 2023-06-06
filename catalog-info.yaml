@@ -45,3 +45,4 @@ metadata:
     providesApi:
     - petstore
     - streetlights
+    - hello-world
