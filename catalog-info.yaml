@@ -29,10 +29,6 @@ metadata:
     pipelines:
     - pipeline3
     - pipeline4
-  links:
-  - url: https://github.com/swagger-api/swagger-petstore
-    title: GitHub Repo
-    icon: github
 spec:
   type: service
   lifecycle: experimental
